@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up for Free Trial</title>
+    <link rel="stylesheet" href="signup-styles.css">
+    <script src="signup.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sign Up for Your Free Trial</h1>
+        <p>Get started with our product today. No credit card required.</p>
+    </header>
+
+    <main>
+        <section id="signup-form">
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit" class="signup-button">Sign Up</button>
+            </form>
+        </section>
+
+        
+        <section id="success-message" style="display:none;">
+            <h2>Success!</h2>
+            <p>You have signed up successfully.</p>
+            <p><a href="login.html">Log in to your account</a> to get started.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+        <p>© 2024 EffiMax. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+
